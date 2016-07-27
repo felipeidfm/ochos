@@ -108,22 +108,35 @@
 
                   
                  
+<<<<<<< HEAD
                   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Agregar</button>
+=======
+                  <button style="padding:4px; margin-bottom:-90px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Agregar</button>
+>>>>>>> origin/master
                   </div>
                 </div>
               </div>
               <div class="panel-body">
+<<<<<<< HEAD
                 <table class="table table-striped table-bordered table-list">
                   <thead>
                     <tr>
                         <!--<th>Editar</th>-->
                         <th class="hidden-xs">No.</th>
+=======
+                <table class="table table-striped table-bordered table-list table-responsive">
+                  <thead>
+                    <tr>
+                        <!--<th>Editar</th>-->
+                        <th class="hidden-xs">ID</th>
+>>>>>>> origin/master
                         <th>Nombre</th>
                         <th>Apellido</th>
                         <th>Empresa</th>
                         <th>RFC</th>
                         <th>Teléfono</th>
                         <th>Dirección</th>
+<<<<<<< HEAD
                         <th>Email</th>
                         <th>Fecha de Creación</th>
                         <th>Fecha de Modificación</th>
@@ -133,6 +146,18 @@
                   <tbody>
                          
                            
+=======
+                        <th>Fecha de Creación</th>
+                        <th>Fecha de Modificación</th>
+                    </tr> 
+                  </thead>
+                  <tbody>
+                          <tr>
+                           <!-- <td align="center">
+                              <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
+                              <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
+                            </td>-->
+>>>>>>> origin/master
 
                             
 <?php 
@@ -151,6 +176,7 @@ echo "
       <td>".$registro['rfc']."</td> 
       <td>".$registro['telefono']."</td> 
       <td>".$registro['direccion']."</td> 
+<<<<<<< HEAD
       <td>".$registro['email']."</td>
       <td>".$registro['fecha_creacion']."</td>
       <td>".$registro['fecha_modificacion']."</td>  
@@ -158,13 +184,21 @@ echo "
                               <a class='btn btn-default'><em class='fa fa-pencil'></em></a>
                               <a class='btn btn-danger'><em class='fa fa-trash'></em></a>
                             </td> 
+=======
+      <td>".$registro['fecha_creacion']."</td>
+      <td>".$registro['fecha_modificacion']."</td>  
+>>>>>>> origin/master
     
 </tr> 
 "; 
 } 
 ?>
 
+<<<<<<< HEAD
                             
+=======
+
+>>>>>>> origin/master
                             
                         </tbody>
                 </table>
@@ -191,7 +225,11 @@ echo "
               </div>
             </div>
 
+<<<<<<< HEAD
 </div></div></div>
+=======
+</div></div>
+>>>>>>> origin/master
 
 </div>
 
@@ -208,11 +246,16 @@ echo "
                                       <div class="modal-content">
                                         <div class="modal-header">
                                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+<<<<<<< HEAD
                                           <h4 class="modal-title">Agregar cliente</h4>
+=======
+                                          <h4 class="modal-title">Agregar nueva cotización</h4>
+>>>>>>> origin/master
                                         </div>
                                      <!-- Modal Body -->
             <div class="modal-body">
                 
+<<<<<<< HEAD
                 <form class="form-horizontal" role="form" name="formulario" method="post" action="funcionesClientes.php">
                   <div class="form-group">
                     <label  style="margin-right:30px;" class="col-sm-2 control-label"
@@ -220,10 +263,20 @@ echo "
                     <div class="col-sm-10">
                         <input type="text" class="form-control" 
                         id="inputEmail3" name="nombre" placeholder="Nombres"/>
+=======
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  style="margin-right:30px;" class="col-sm-2 control-label"
+                              for="inputEmail3">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" 
+                        id="inputEmail3" placeholder="Email"/>
+>>>>>>> origin/master
                     </div>
                   </div>
                   <div class="form-group">
                     <label style="margin-right:30px;"  class="col-sm-2 control-label"
+<<<<<<< HEAD
                               for="inputEmail3">Apellidos</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" 
@@ -268,22 +321,59 @@ echo "
                     <div class="col-sm-10">
                         <input type="email" class="form-control" 
                         id="inputEmail3" name="email" placeholder="Email"/>
+=======
+                              for="inputEmail3">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" 
+                        id="inputEmail3" placeholder="Email"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label style="margin-right:30px;" class="col-sm-2 control-label"
+                          for="inputPassword3" >Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="Password"/>
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
+                      
+>>>>>>> origin/master
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+<<<<<<< HEAD
                       <button type="submit" class="btn btn-default">Crear</button>
+=======
+                      <button type="submit" class="btn btn-default">Sign in</button>
+>>>>>>> origin/master
                     </div>
                   </div>
                 </form>
                 
+<<<<<<< HEAD
                  
+=======
+                
+>>>>>>> origin/master
                 
                 
                 
                 
             </div>
 
+<<<<<<< HEAD
+=======
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+>>>>>>> origin/master
 
 
 

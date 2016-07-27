@@ -3,7 +3,11 @@
     <html lang="es">
      
     <head>
+<<<<<<< HEAD
      <title>Dashboard</title>
+=======
+     <title>Dashboakjagsdjagsjdasjrd</title>
+>>>>>>> origin/master
      
  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
