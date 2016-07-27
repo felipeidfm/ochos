@@ -3,7 +3,6 @@
     <html lang="es">
      
     <head>
-     <title>Dashboard</title>
      
  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
